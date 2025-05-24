@@ -2,4 +2,8 @@ local placeId = game.PlaceId
 
 if placeId == 87700573492940 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/FrostByteV1/Scripts/refs/heads/main/UntitledDrillGame"))() -- Untitled Drill Game
-   end
+elseif placeId == 18172550962 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/FrostByteV1/Scripts/refs/heads/main/PixelBlade"))() -- Pixel Blade
+else
+  print("Frostbyte Doesn't Support This Game!")
+end
